@@ -21,7 +21,7 @@
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-05-02 09:09:46</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>a592e1ac61a232007f443e5a97ae8d79</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Loaner Request</sys_name>
