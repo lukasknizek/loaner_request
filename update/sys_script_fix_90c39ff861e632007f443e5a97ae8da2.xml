@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description>Add Loaner Request application roles to users</description>
+        <flush_cache>false</flush_cache>
+        <name>Fix Roles</name>
+        <run_once>true</run_once>
+        <script><![CDATA[// Add the Loaner Request admin role to Fred Luddy
+var fl = new GlideRecord('sys_user_has_role');
+fl.newRecord();
+fl.user.setDisplayValue('Fred Luddy');
+fl.role.setDisplayValue('x_snc_loaner_reque.admin');
+fl.insert();
+// Add the Loaner Request user role to Beth Anglin
+var ba = new GlideRecord('sys_user_has_role');
+ba.newRecord();
+ba.user.setDisplayValue('Beth Anglin');
+ba.role.setDisplayValue('x_snc_loaner_reque.loaner_request_user');
+ba.insert();]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-03 12:01:58</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>90c39ff861e632007f443e5a97ae8da2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fix Roles</sys_name>
+        <sys_package display_value="Loaner Request" source="x_snc_loaner_reque">cc60eda861a232007f443e5a97ae8d30</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Loaner Request">cc60eda861a232007f443e5a97ae8d30</sys_scope>
+        <sys_update_name>sys_script_fix_90c39ff861e632007f443e5a97ae8da2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-03 12:01:58</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

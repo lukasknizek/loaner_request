@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Loaner Request">fdb57334612a32007f443e5a97ae8d22</category>
+        <order>100</order>
+        <property display_value="x_snc_loaner_reque.pickup.leadtime" name="x_snc_loaner_reque.pickup.leadtime">6fa53334612a32007f443e5a97ae8dc4</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-03 14:32:46</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>8ea6f734612a32007f443e5a97ae8dca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_snc_loaner_reque.pickup.leadtime.Loaner Request</sys_name>
+        <sys_package display_value="Loaner Request" source="x_snc_loaner_reque">cc60eda861a232007f443e5a97ae8d30</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Loaner Request">cc60eda861a232007f443e5a97ae8d30</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_8ea6f734612a32007f443e5a97ae8dca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-03 14:33:09</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>
